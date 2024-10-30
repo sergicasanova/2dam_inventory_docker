@@ -7,7 +7,7 @@ git submodule update --recursive
 ## Copy env file
 cp {,.}env
 
-cp 2-dam_inventory/{,.}env
+cp env 2-dam_inventory/.env
 ## Set variables
 In `2-dam_inventory/.env` set the variables. Focus on the MYSQL password, it must be the one provided in this .env file.
 
